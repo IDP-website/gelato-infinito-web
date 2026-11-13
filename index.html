@@ -27,11 +27,7 @@
   <a class="brand" href="#top" aria-label="Gelato Infinito home"><svg class="logo-img" viewBox="0 0 240 132" role="img" aria-label="Gelato Infinito">
   <defs><path id="arca" d="M84 46 A38 38 0 0 1 156 46"/></defs>
   <text font-family="Archivo Black, Arial Black, sans-serif" font-size="11" letter-spacing="2.2" fill="currentColor"><textPath href="#arca" startOffset="50%" text-anchor="middle">BENVENUTO</textPath></text>
-  <g transform="translate(120 62)" fill="currentColor">
-    <g id="pa"><path d="M0-4 C-6-10 -6.5-22 0-27 C6.5-22 6-10 0-4Z"/></g>
-    <use href="#pa" transform="rotate(40)"/><use href="#pa" transform="rotate(80)"/><use href="#pa" transform="rotate(120)"/><use href="#pa" transform="rotate(160)"/><use href="#pa" transform="rotate(200)"/><use href="#pa" transform="rotate(240)"/><use href="#pa" transform="rotate(280)"/><use href="#pa" transform="rotate(320)"/>
-    <circle r="4.2"/>
-  </g>
+  <g transform="translate(120 66) scale(.72)" fill="currentColor"><g id="pa"><path d="M-1.6,-6.6 L-6.2,-25.2 A8.2,8.2 0 1 1 6.2,-25.2 L1.6,-6.6Z"/><path d="M5.5,-27.4 A6.4,6.4 0 0 0 3.2,-36.1" fill="none" stroke="var(--line,#fff)" stroke-width="1.1" stroke-linecap="round"/></g><use href="#pa" transform="rotate(36)"/><use href="#pa" transform="rotate(72)"/><use href="#pa" transform="rotate(108)"/><use href="#pa" transform="rotate(144)"/><use href="#pa" transform="rotate(180)"/><use href="#pa" transform="rotate(216)"/><use href="#pa" transform="rotate(252)"/><use href="#pa" transform="rotate(288)"/><use href="#pa" transform="rotate(324)"/></g>
   <text x="120" y="112" text-anchor="middle" font-family="Archivo Black, Arial Black, sans-serif" font-size="21" letter-spacing="-.3" fill="currentColor">GELATO INFINITO</text>
   <text x="120" y="126" text-anchor="middle" font-family="Archivo Black, Arial Black, sans-serif" font-size="7.4" letter-spacing="1.6" fill="currentColor">AUTHENTICO ARTISINAL</text>
 </svg>
@@ -54,14 +50,15 @@
     </div>
   </div>
   <div class="hero-art">
+    <span class="blob b-pist"></span><span class="blob b-straw"></span><span class="blob b-lemon"></span>
     <div class="arch"><img src="/assets/img/hero-cone.jpg" alt="A waffle cone of Gelato Infinito held against an orange wall"></div>
     <div class="sticker"><span>Have you<br>heard?</span></div>
   </div>
 </section>
 
 <div class="marquee" aria-hidden="true"><div class="track">
-  <span>Pistachio</span><i>✿</i><span>Stracciatella</span><i>✿</i><span>Lemon Sorbetto</span><i>✿</i><span>Sour Cherry</span><i>✿</i><span>Peanut Butter</span><i>✿</i><span>Espresso</span><i>✿</i><span>Dragonfruit Sorbetto</span><i>✿</i><span>Cookies &amp; Cream</span><i>✿</i><span>Rum &amp; Raisin</span><i>✿</i><span>Naartjie Sorbetto</span><i>✿</i>
-  <span>Pistachio</span><i>✿</i><span>Stracciatella</span><i>✿</i><span>Lemon Sorbetto</span><i>✿</i><span>Sour Cherry</span><i>✿</i><span>Peanut Butter</span><i>✿</i><span>Espresso</span><i>✿</i><span>Dragonfruit Sorbetto</span><i>✿</i><span>Cookies &amp; Cream</span><i>✿</i><span>Rum &amp; Raisin</span><i>✿</i><span>Naartjie Sorbetto</span><i>✿</i>
+  <span class="c-pist">Pistachio</span><i>✿</i><span class="c-van">Stracciatella</span><i>✿</i><span class="c-lemon">Lemon Sorbetto</span><i>✿</i><span class="c-cherry">Sour Cherry</span><i>✿</i><span class="c-caramel">Peanut Butter</span><i>✿</i><span class="c-choc">Espresso</span><i>✿</i><span class="c-dragon">Dragonfruit Sorbetto</span><i>✿</i><span class="c-van">Cookies &amp; Cream</span><i>✿</i><span class="c-caramel">Rum &amp; Raisin</span><i>✿</i><span class="c-orange">Naartjie Sorbetto</span><i>✿</i>
+  <span class="c-pist">Pistachio</span><i>✿</i><span class="c-van">Stracciatella</span><i>✿</i><span class="c-lemon">Lemon Sorbetto</span><i>✿</i><span class="c-cherry">Sour Cherry</span><i>✿</i><span class="c-caramel">Peanut Butter</span><i>✿</i><span class="c-choc">Espresso</span><i>✿</i><span class="c-dragon">Dragonfruit Sorbetto</span><i>✿</i><span class="c-van">Cookies &amp; Cream</span><i>✿</i><span class="c-caramel">Rum &amp; Raisin</span><i>✿</i><span class="c-orange">Naartjie Sorbetto</span><i>✿</i>
 </div></div>
 
 <section class="story wrap">
@@ -79,25 +76,27 @@
   </div>
 </section>
 
+<div class="drip to-straw" aria-hidden="true"></div>
 <section class="flavours" id="flavours">
   <div class="wrap">
     <p class="kicker">In the cabinet</p>
     <h2>Find your new <em>favourite</em> flavour.</h2>
     <p class="sub">Flavours change with the seasons and the day's batch. Here are some of the regulars. Ask us what's fresh today.</p>
     <div class="flav-grid">
-      <article class="flav-card big reveal"><img src="/assets/img/pistachio-tub.jpg" alt="Pistachio gelato in a Gelato Infinito cup" loading="lazy"><div><h3>Pistachio</h3><p>Our most-loved scoop. Nutty, rich and properly green.</p></div></article>
-      <article class="flav-card reveal"><img src="/assets/img/chocolate-tray.jpg" alt="A tray of dark chocolate gelato" loading="lazy"><div><h3>Chocolate</h3><p>Deep, velvety, decadent.</p></div></article>
-      <article class="flav-card reveal"><img src="/assets/img/lemon-tub.jpg" alt="A tub of lemon sorbetto between fresh lemons" loading="lazy"><div><h3>Lemon Sorbetto</h3><p>Zesty, fresh, dairy-free.</p></div></article>
-      <article class="flav-card reveal"><img src="/assets/img/dragonfruit.jpg" alt="Bright pink dragonfruit sorbetto" loading="lazy"><div><h3>Dragonfruit Sorbetto</h3><p>A tropical holiday in a cup.</p></div></article>
-      <article class="flav-card reveal"><img src="/assets/img/vanilla.jpg" alt="Vanilla bean gelato with vanilla pods" loading="lazy"><div><h3>Vanilla Bean</h3><p>Fresh vanilla in every scoop.</p></div></article>
+      <article class="flav-card big reveal"><img src="/assets/img/pistachio-tub.jpg" alt="Pistachio gelato in a Gelato Infinito cup" loading="lazy"><div><span class="tag c-pist"></span><h3>Pistachio</h3><p>Our most-loved scoop. Nutty, rich and properly green.</p></div></article>
+      <article class="flav-card reveal"><img src="/assets/img/chocolate-tray.jpg" alt="A tray of dark chocolate gelato" loading="lazy"><div><span class="tag c-choc"></span><h3>Chocolate</h3><p>Deep, velvety, decadent.</p></div></article>
+      <article class="flav-card reveal"><img src="/assets/img/lemon-tub.jpg" alt="A tub of lemon sorbetto between fresh lemons" loading="lazy"><div><span class="tag c-lemon"></span><h3>Lemon Sorbetto</h3><p>Zesty, fresh, dairy-free.</p></div></article>
+      <article class="flav-card reveal"><img src="/assets/img/dragonfruit.jpg" alt="Bright pink dragonfruit sorbetto" loading="lazy"><div><span class="tag c-dragon"></span><h3>Dragonfruit Sorbetto</h3><p>A tropical holiday in a cup.</p></div></article>
+      <article class="flav-card reveal"><img src="/assets/img/vanilla.jpg" alt="Vanilla bean gelato with vanilla pods" loading="lazy"><div><span class="tag c-van"></span><h3>Vanilla Bean</h3><p>Fresh vanilla in every scoop.</p></div></article>
     </div>
     <div class="flav-lists">
-      <div class="reveal"><h3>Gelato</h3><ul><li>Pistachio</li><li>Stracciatella</li><li>Chocolate</li><li>Espresso</li><li>Peanut Butter</li><li>Sour Cherry</li><li>Rum &amp; Raisin</li><li>Brownie</li><li>Cookies &amp; Cream</li><li>Vanilla Bean</li><li>Fresh Mint</li></ul></div>
-      <div class="reveal"><h3>Sorbetto <small>dairy-free</small></h3><ul><li>Lemon</li><li>Lemon &amp; Lime</li><li>Naartjie</li><li>Dragonfruit</li><li>Pineapple</li></ul></div>
+      <div class="reveal"><h3>Gelato</h3><ul><li class="c-pist">Pistachio</li><li class="c-van">Stracciatella</li><li class="c-choc">Chocolate</li><li class="c-choc">Espresso</li><li class="c-caramel">Peanut Butter</li><li class="c-cherry">Sour Cherry</li><li class="c-caramel">Rum &amp; Raisin</li><li class="c-choc">Brownie</li><li class="c-van">Cookies &amp; Cream</li><li class="c-van">Vanilla Bean</li><li class="c-mint">Fresh Mint</li></ul></div>
+      <div class="reveal"><h3>Sorbetto <small>dairy-free</small></h3><ul><li class="c-lemon">Lemon</li><li class="c-lime">Lemon &amp; Lime</li><li class="c-orange">Naartjie</li><li class="c-dragon">Dragonfruit</li><li class="c-lemon">Pineapple</li></ul></div>
     </div>
   </div>
 </section>
 
+<div class="drip from-straw" aria-hidden="true"></div>
 <section class="menu wrap" id="menu">
   <div class="board reveal">
     <h2 class="board-title">Cups &amp; Cones</h2>
@@ -143,6 +142,7 @@
   </div>
 </section>
 
+<div class="drip from-orange" aria-hidden="true"></div>
 <section class="gallery">
   <div class="wrap g-head"><h2>Happiness, one scoop at a time.</h2><a class="ig" href="https://www.instagram.com/gelato_infinito/" target="_blank" rel="noopener">@gelato_infinito →</a></div>
   <div class="strip">
@@ -157,7 +157,7 @@
   </div>
 </section>
 
-<section class="visit wrap" id="visit">
+<div class="visit-wrap"><section class="visit wrap" id="visit">
   <div class="visit-copy reveal">
     <p class="kicker">Come say hi</p>
     <h2>Find us next to the <em>Golf Shop</em> on Thesen Island.</h2>
@@ -180,19 +180,16 @@
     <img src="/assets/img/shopfront.jpg" alt="The Gelato Infinito shopfront in the Sawtooth Building" loading="lazy">
     <iframe title="Map to Gelato Infinito" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Sawtooth+Building+Thesen+Harbour+Town+Knysna&output=embed"></iframe>
   </div>
-</section>
+</section></div>
 </main>
 
+<div class="flav-bar-top" aria-hidden="true"></div>
 <footer class="foot">
   <div class="wrap foot-in">
     <svg class="foot-logo" viewBox="0 0 240 132" role="img" aria-label="Gelato Infinito">
   <defs><path id="arcb" d="M84 46 A38 38 0 0 1 156 46"/></defs>
   <text font-family="Archivo Black, Arial Black, sans-serif" font-size="11" letter-spacing="2.2" fill="currentColor"><textPath href="#arcb" startOffset="50%" text-anchor="middle">BENVENUTO</textPath></text>
-  <g transform="translate(120 62)" fill="currentColor">
-    <g id="pb"><path d="M0-4 C-6-10 -6.5-22 0-27 C6.5-22 6-10 0-4Z"/></g>
-    <use href="#pb" transform="rotate(40)"/><use href="#pb" transform="rotate(80)"/><use href="#pb" transform="rotate(120)"/><use href="#pb" transform="rotate(160)"/><use href="#pb" transform="rotate(200)"/><use href="#pb" transform="rotate(240)"/><use href="#pb" transform="rotate(280)"/><use href="#pb" transform="rotate(320)"/>
-    <circle r="4.2"/>
-  </g>
+  <g transform="translate(120 66) scale(.72)" fill="currentColor"><g id="pb"><path d="M-1.6,-6.6 L-6.2,-25.2 A8.2,8.2 0 1 1 6.2,-25.2 L1.6,-6.6Z"/><path d="M5.5,-27.4 A6.4,6.4 0 0 0 3.2,-36.1" fill="none" stroke="var(--line,#fff)" stroke-width="1.1" stroke-linecap="round"/></g><use href="#pb" transform="rotate(36)"/><use href="#pb" transform="rotate(72)"/><use href="#pb" transform="rotate(108)"/><use href="#pb" transform="rotate(144)"/><use href="#pb" transform="rotate(180)"/><use href="#pb" transform="rotate(216)"/><use href="#pb" transform="rotate(252)"/><use href="#pb" transform="rotate(288)"/><use href="#pb" transform="rotate(324)"/></g>
   <text x="120" y="112" text-anchor="middle" font-family="Archivo Black, Arial Black, sans-serif" font-size="21" letter-spacing="-.3" fill="currentColor">GELATO INFINITO</text>
   <text x="120" y="126" text-anchor="middle" font-family="Archivo Black, Arial Black, sans-serif" font-size="7.4" letter-spacing="1.6" fill="currentColor">AUTHENTICO ARTISINAL</text>
 </svg>
